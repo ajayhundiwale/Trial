@@ -1,7 +1,7 @@
 class Cal:
-       # def __init__(self, a,b):
-       #        self.a = a
-       #        self.b = b
+       def __init__(self, a,b):
+              self.a = a
+              self.b = b
 
        def __mul__(self, a, b):
               return Cal (self.a + self.b)
